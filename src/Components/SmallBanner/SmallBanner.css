@@ -1,0 +1,25 @@
+.smallBanner {
+  background-color: #222539;
+  color: wheat;
+}
+
+.smallBanner__Container {
+  width: 90%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.smallBanner__containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.smallBanner__containers p {
+  cursor: pointer;
+  margin: 4px 6px;
+  padding: 4px;
+  font-size: 0.8rem;
+}
