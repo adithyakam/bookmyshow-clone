@@ -17,7 +17,7 @@ function App() {
       <Header/>
       <SmallBanner/>
         <Switch>
-          <Route path="/home">
+          <Route path="/">
             <Banner/>
             <Row/>
           </Route>

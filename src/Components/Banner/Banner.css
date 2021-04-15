@@ -1,0 +1,23 @@
+.bannerContainer {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.bannerImg {
+  height: 260px;
+  width: 95%;
+  /* margin: 0 -40px; */
+  margin: auto auto;
+  padding: 10px;
+}
+
+.alice-carousel__dots {
+  position: absolute;
+  margin: auto auto !important;
+  bottom: 20px;
+  left: 40%;
+  align-items: center;
+}
+.alice-carousel__stage-item {
+  width: 650px !important;
+}
